@@ -1,0 +1,50 @@
+p {
+    margin: 10px 10px 5px;
+    color: #667781;
+    font-family: "Segoe UI", "Helvetica Neue"
+}
+.chat-list{
+    background-color: #FFFF;
+    display:flex;
+    height: 72px;
+    width: 434px;
+    
+}
+.chat-list__perfil {
+    width: 20%;
+    padding: 0px 15px 0px 13px;
+}
+.chat-list__background-photo{
+    margin: 10px;
+    background-image: url('../images/perfil.jpg');
+    width: 49px;
+    height: 49px;
+    border-radius:100% ;
+    background-position:center;
+    background-size: 120px;
+
+}
+.chat-list__cont{
+    width: 100%;
+    border-bottom: 1px solid #e9edef;
+}
+.chat-list__name {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    justify-content: space-between;
+}
+.mensa_name{
+    width: 90%;
+    color: #111B21;
+    font-size: 17px;
+}
+
+.chat-list__sub-message{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+
